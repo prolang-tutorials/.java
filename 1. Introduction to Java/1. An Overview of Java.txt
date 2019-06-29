@@ -1,0 +1,26 @@
+This 'lesson' is purely an introductory overview of Java as a language. This
+information isn't necessary, but is definitely helpful in understanding several
+aspects of Java.
+
+Java, itself, is an extremely versatile language while managing to retain the
+benefits of simplicity. Originally created in 1995, Java has a C/C++ form of
+syntax and contains several useful features and aspects meant for the average
+developer. Often, Java is described as general-purpose programming language,
+with several aspects of OOP (Object Oriented Programming). The programming
+style is segmented, as it is designed for distrusted clients, however, relies
+heavily on OOP aspects to bridge such segmentation. Java, however, also
+contains another intuitive aspect, it's 'Write Once, Run Anywhere' (hereby
+referenced as WORA). I will go further into detail about this WORA fundamental
+below, however, this enables developers to compile their code into bytecode
+once, and is able to run on any machine that supports a JVM (Java Virtual
+Machine).
+
+Even though Java, itself, has gone through several iterations, the
+key principles of Java has remained consistent, excerpts taken from Oracle (the
+creators of Java themselves):
+
+  1. Java is "Simple, Object Oriented, and Familiar"
+  2. Java is "Robust and Secure"
+  3. Java is "Architecture Neutral and Portable"
+  4. Java is "High Performance"
+  5. Java is "Interpreted, Threaded, and Dynamic"
