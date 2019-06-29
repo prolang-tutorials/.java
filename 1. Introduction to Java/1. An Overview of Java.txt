@@ -24,3 +24,55 @@ creators of Java themselves):
   3. Java is "Architecture Neutral and Portable"
   4. Java is "High Performance"
   5. Java is "Interpreted, Threaded, and Dynamic"
+
+Java takes an Occam's Razor approach to programming, as in the simpler, the
+better. Developers don't require extensive knowledge about the fundamental
+concepts of Java to enable themselves to approach and solve any problem
+efficiently. As for learners, Java uses intuitive and simple logic and operators,
+something that is easy to catch on quickly. To further add on to the minimalistic
+approach that Java takes, it's data and structural management is segmented,
+making organizing a simple task. Each program consists of a larger 'class' or
+object. An object consists of either information (in the form of variables) or
+methods. Think of a hammer, a hammer consists of characteristics (it's height,
+weight, style, etc.) and performs several different tasks. This makes creating
+both large and small scale projects simple, as incorporating many different
+programs is just a matter of incorporating different objects.
+
+Java, itself, contains several automatic protocols that ensures both reliable
+and secure software. The 'memory management model' is as simplistic as possible,
+and has several features that allow for easy development. It's security features
+ensures that several common issues among languages such as data leakage or
+intrusion code is prevented at the kernel-level.
+
+Being "Architecture Neutral and Portable" refers to the earlier mentioned WORA.
+Java programs are made relatively lightweight and portable across many different
+platforms, meaning, a programmer needs only to compile once before being able to
+run across several diverse systems and hardware. Java accomplishes this by using
+different universal techniques such as bytecode compilation and JVMs. What occurs
+is that once a programmer complies a Java program, the resulting code is called
+'bytecode'. When this 'bytecode' is run on a foreign system, the 'bytecode' is
+run through a JVM (Java Virtual Machine), which is basically a convertor that
+changes the bytecode into machine code, which the machine is able to run and
+interpret. JVMs are largely dependent on the architecture or hardware of the
+system, however, since the principles are universal common errors such as data
+incompatibility is essential non-existent.
+
+Now, Java has many miniscule levels which enable the boasted 'High Performance',
+however, there are two main features that truly drive the efficiency of Java.
+The first of these is based off how the JVMs are setup. Most programs depend on
+a valid run-time environment to function, however, Java's JVMs ensure that the
+run-time environment is valid upon install, rather than simultaneously checking
+as the program runs. This makes a noticeable impact, especially on the lower core
+CPUs. The second feature is it's 'Automatic Garbage Collector'. This is essentially
+a low priority threaded program that ensures variables and stored memory that
+isn't called upon in the program is allowed to be re-written.
+
+'Interpreted, Threaded, Dynamic', lots of buzz words. Interpreted, as mentioned
+above, is an aspect of the WORA, and means that there is a universal language
+that is interpreted into machine code for each machine (as explained above).
+Threaded is an interesting feature, but it is a feature that vastly increases
+performance across the board. Each processing unit contains several segmented
+sections that are capable of running independently of each other (cores). Each
+of these cores contain allocated spaces of threads, meaning, several programs
+and iterations of programs can be running on several cores or several threads,
+vastly improving performance. 
