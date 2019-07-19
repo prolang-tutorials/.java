@@ -1,3 +1,4 @@
+
 /*
 Everything in Java is constructed based on 'classes' or objects. As mentioned
 before, classes consist of either data, or methods. The most important thing to
@@ -7,7 +8,7 @@ done, nothing. Java files themselves are named after the object that is being
 created.
 */
 //To initate an object, start with public class _______
-public class 3_1_Class_Structure.java {
+public class ClassStructure {
 /*
 In Java, Data is stored in two types of data, primitive and abstract. I will
 include more information on the differences between the two, but as it sounds,
@@ -49,16 +50,16 @@ one is more complicated than ther other.
     //True or false. Quite literally, there is no other type of data that booleans
     //can store.
 
-    public 3_1_Class_Structure() { //This 'method' is a special method. This is
+    public ClassStructure() { //This 'method' is a special method. This is
     // due to one fact, the name of the method is the same as the name of the class.
     //This means that this 'method' is a constructor. A constructor modifies or
     //is used when the object is called, and allows us to call functions or change
     //variables upon initalization. There can be multiple constructors, each with
     //different arguements.
-        text = "Each called variable, unless it has 'final' in it, can be modified".
+        text = "Each called variable, unless it has 'final' in it, can be modified";
     }
-    public 3_1_Class_Structure(String arguements) {
-        text = arguements //Since constructors can take arugements, it is possible
+    public ClassStructure(String arguements) {
+        text = arguements; //Since constructors can take arugements, it is possible
         //to modify instance variables upon initalization.
     }
     public void print_method() { //This is a more standard method. The structure
@@ -72,7 +73,7 @@ one is more complicated than ther other.
     //return any value.
     //The last word is the name of the method. Like the constructor, methods can
     //be changed to accommodate different arguements. See below.
-          suoer_secret_print("Super secret message"); //Methods can call upon
+        super_secret_print("Super secret message"); //Methods can call upon
           //other methods, as shown. Only internal methods can call upon 'private'
           //functions.
     }
@@ -91,7 +92,7 @@ one is more complicated than ther other.
       //object is initizliated, the main method is automatically called. From here,
       //you can do all kinds of things, but is generally the kickstarter to any
       //Java program.
-      3_1_Class_Structure obj = new 3_1_Class_Structure("Arguement");
+      ClassStructure obj = new ClassStructure("Arguement");
       //here we are creating a new object, which is the class object here. For any
       //method except the main method, we dont need to use an object to call upon
       //nternal methods, but we do for the main method. This is crutial to remember.

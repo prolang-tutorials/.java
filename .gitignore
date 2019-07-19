@@ -1,0 +1,4 @@
+#Ignoring all compiled classes
+*.class
+#Ignoring complied md
+*.html
